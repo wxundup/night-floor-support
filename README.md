@@ -57,4 +57,5 @@ The file is published in that root repo and its live content was verified
 against the snippet shown by the AdMob account. This folder holds the
 canonical copy for future updates. The App Store listing's Marketing URL
 must use the same host so the crawler can tie the app to the file. Public
-listing, crawl verification, payment setup, and Google review remain pending.
+listing, crawl verification, and Google review remain pending. The individual
+payment profile is complete; Google account approval is pending.
