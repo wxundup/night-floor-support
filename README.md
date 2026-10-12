@@ -1,4 +1,4 @@
-# Night Floor release site
+# Blinks. release site
 
 Static support, privacy, and terms pages for GitHub Pages. Plain HTML and
 one small stylesheet. No frameworks, no JavaScript, no cookies, no
