@@ -26,11 +26,11 @@ with the in-app 13 minimum preserved.
 
 Every page links its contact address as a `mailto:` link to
 woundedmc1@gmail.com, one per page (index, privacy, terms). The site is
-ready to publish; it has not been published yet.
+published at https://wxundup.github.io/night-floor-support/.
 
 ## Publishing
 
-The app repository is private and must stay private. Do not publish it.
-Publish only this folder's contents, for example as a new public repo with
-`index.html` at its root, then enable GitHub Pages from the main branch.
-All links between pages are relative, so the folder works at any URL root.
+Only this folder's contents are published in `wxundup/night-floor-support`,
+with GitHub Pages serving the main branch root. The app repository remains
+private. Copy changes from this folder into the separate website repository
+to update the published pages. Links between pages are relative.
