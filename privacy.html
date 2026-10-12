@@ -51,14 +51,21 @@ usage data to show and measure ads. Google's handling of that data is
 described in <a href="https://policies.google.com/privacy">Google's privacy
 policy</a>.</p>
 <p>The app requests ads under settings that reduce personalization:
-non-personalized ad treatment, Google's teen age-restricted treatment, and
-a general maximum content rating. Non-personalized does not mean that no
-data is collected. Google may still collect and use data to serve and
-measure the ads themselves.</p>
-<p>Where required, the app shows Google's consent form and asks for your
-privacy choices before requesting an ad. You can revisit those choices in
-the points store whenever Google requires the option to be offered. The app
-does not request permission for cross-app tracking.</p>
+non-personalized ad treatment, Google's under-age ad treatment (ads are
+tagged for users under the age of consent, as described in
+<a href="https://developers.google.com/admob/ios/targeting">Google's ad
+targeting documentation</a>), and a general maximum content rating.
+Non-personalized does not mean that no data is collected. Google may still
+collect and use data to serve and measure the ads themselves.</p>
+<p>Because every ad request is tagged for users under the age of consent,
+the app currently does not show Google's consent form and does not ask for
+ad personalization choices; ads are served with the under-age protections
+described above. If Google's setup for the app ever requires a
+privacy-options entry point, the app retains one in the points store and
+you can revisit your choices there. The app does not request permission
+for cross-app tracking. See
+<a href="https://developers.google.com/admob/ios/privacy/gdpr">Google's
+GDPR guidance for AdMob</a> for how these settings work.</p>
 
 <h2>Children</h2>
 <p>The app's policy asks that people under 13 do not use it. The app has no
